@@ -16,11 +16,8 @@ const Productos = () => {
 
 
   return (
-    <div className="Productos-div">
-      <br></br>
-      <ul className='Productos-grid'>
+    <div className='container'>
       {productos.length > 0 && productos.map((item, i) => <Producto key={item.id} {...item}></Producto>)}
-      </ul>
     </div>
   )
 }
