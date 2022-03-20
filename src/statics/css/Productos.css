@@ -1,0 +1,19 @@
+.Productos-div {
+    background-color: #577BC1;
+    color: #ffffff;
+}
+
+.Productos-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 230px);
+    gap: 100px;
+    padding: 120px;
+    margin: 0px;
+    justify-content: center;
+}
+
+ @media (max-width: 560px) {
+    .Productos-grid {
+    grid-template-columns: auto;
+    }
+} 
