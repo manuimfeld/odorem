@@ -1,7 +1,7 @@
 import React from 'react'
 import "../statics/css/Producto.css"
 
-const Producto = props => {
+const Seleccionado = props => {
   const {nombre, foto, descripcion} = props
   const handleClick = ()=>{
       let compra = localStorage.getItem('compras')
@@ -25,4 +25,4 @@ const Producto = props => {
   )
 }
 
-export default Producto
+export default Seleccionado

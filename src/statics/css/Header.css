@@ -14,3 +14,8 @@ Header {
     background-color: #000957;
     margin-bottom: 100px;
 }
+
+li a {
+    color: #ffffff;
+    margin: 10px;
+}
